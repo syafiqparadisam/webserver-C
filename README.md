@@ -10,7 +10,7 @@ git clone git@github.com:syafiqparadisam/webserver-C.git
 
 ### 2. Run project
 ```
-make run file=main
+make run
 ```
 
 ## Contact and Support

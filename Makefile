@@ -1,5 +1,7 @@
+file=main
+
 build:
-	gcc -o bin/${file}.out ${file}.c
+	gcc -o bin/${file}.out src/${file}.c
 
 run: build
-	./bin/${file}
+	./bin/${file}.out
