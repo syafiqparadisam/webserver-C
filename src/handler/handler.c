@@ -1,6 +1,6 @@
-#include "../include/server.h"
+#include "handler.h"
 
-void accept_connection(int sockfd, struct sockaddr_in *host_addr, int host_addrlen)
+void accept_connection(int sockfd, struct sockaddr_in host_addr, int host_addrlen)
 {
 	struct sockaddr_in client_addr;
 	int client_addrlen = sizeof(client_addr);
